@@ -53,6 +53,7 @@ RTK intercepts shell commands and compresses their output before your agent read
 | `ruff check` | Grouped by rule and file |
 | `pytest` | Failures only, traceback trimmed |
 | `go test` | NDJSON parsed, failures only |
+| `nix build` / `nix-shell` | Progress batched into summaries, store paths shortened, errors kept |
 | `docker ps` | Essential fields only |
 
 ## How Savings Work
